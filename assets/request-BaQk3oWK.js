@@ -1,0 +1,1 @@
+function e(e){return Promise.resolve({code:200,message:`success`,data:e})}export{e as t};

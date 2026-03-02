@@ -4,7 +4,7 @@ import userRoutes from './modules/user'
 const routes = [
   {
     path: '/',
-    component: () => import('@/views/Home.vue'),
+    component: () => import('@/views/TodoList.vue'),
   },
   ...userRoutes
 ]
